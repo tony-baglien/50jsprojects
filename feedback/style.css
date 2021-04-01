@@ -1,0 +1,106 @@
+/* Roboto */
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+/* Muli */
+/* @import url("https://fonts.googleapis.com/css?family=Muli&display=swap"); */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(255, 171, 162);
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.panel-container,
+.thankyou-container {
+  background-color: #fff;
+  height: 350px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.thankyou-container {
+  justify-content: center;
+  padding: 20px;
+}
+
+.panel-container strong {
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+.ratings-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.ratings-container img {
+  height: 50px;
+  width: 50px;
+}
+
+.rating {
+  height: 125px;
+  width: 125px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.rating.active {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 4px 10px 0px;
+}
+
+.rating:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 4px 10px 0px;
+}
+
+.rating small {
+  margin-top: 15px;
+}
+
+.btn {
+  border: none;
+  font-size: 18px;
+  padding: 10px 30px;
+  color: #fff;
+  background-color: #585858;
+  letter-spacing: 1.5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Thank you Card */
+
+.thankyou-container .fa-heart {
+  font-size: 30px;
+  margin-bottom: 3px;
+  color: red;
+}
+
+.thankyou-container strong {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.thankyou-container h3 {
+  margin-bottom: -3px;
+}
+.thankyou-container p {
+  text-align: center;
+}

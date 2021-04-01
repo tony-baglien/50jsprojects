@@ -1,0 +1,97 @@
+/* Roboto */
+@import url("https://fonts.googleapis.com/css?family=Roboto@wght:400;700&display=swap");
+/* Muli */
+/* @import url("https://fonts.googleapis.com/css?family=Muli&display=swap"); */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f8f9fd;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.container {
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 300px;
+}
+
+.title {
+  margin: o;
+}
+
+.subtitle {
+  display: inline-block;
+  margin: 5px 0 20px;
+  opacity: 0.8;
+}
+
+.header {
+  background-color: #3e57db;
+  color: #fff;
+  padding: 30px 20px;
+}
+
+.header input {
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 0;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 15px;
+  width: 100%;
+}
+
+.header input:focus {
+  outline: none;
+}
+
+.userlist {
+  background-color: #fff;
+  list-style-type: none;
+  margin: 0;
+  max-height: 400px;
+  overflow-y: auto;
+  padding: 0;
+}
+
+.userlist li {
+  display: flex;
+  padding: 20px;
+}
+
+.userlist img {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+.userlist .user-info {
+  margin-left: 10px;
+}
+
+.userlist .user-info h4 {
+  margin: 0 0 10px;
+}
+
+.userlist .user-info p {
+  font-size: 12px;
+}
+
+.userlist li:not(:last-of-type) {
+  border-bottom: 1px solid #eee;
+}
+
+.userlist li.hide {
+  display: none;
+}
